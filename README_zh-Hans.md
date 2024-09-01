@@ -1,10 +1,10 @@
 <p>
   <img src="About/SS_Icon.png" height="128" align="left">
-  <h1 align="right">SawedoffShot's Gun_Misc</h1>
+  <h1 align="right">SawedoffShot's Mechanoid_Combat</h1>
 </p>
 
 <p align="right">
-  <a href="https://github.com/AlohaOe114/SawedoffShotgun-s-Gun_Misc/releases">
+  <a href="https://github.com/AlohaOe114/SawedoffShotgun-s-Mechanoid_Combat">
     <img src="https://img.shields.io/badge/-latest%20release-gray?style=for-the-badge&logo=github">
   </a>
   <a href="youngturksfree@outlook.com">
@@ -22,7 +22,7 @@
  本Mod具体内容的"关键词"：
   “近战“ 或 ”反蜈蚣”
 
- “哈，看看咱今个都找到啥?” “就一堆古代的破铜烂铁?” “你再看看”    
+ "Waghhh!" 
 
 # 兼容性:
  游戏中途加入-安全    
