@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SS_Abilities_SmokepopMechExecutioner.label>瞬爆烟雾发生器——刽子手</SS_Abilities_SmokepopMechExecutioner.label>
+  <SS_Abilities_SmokepopMechExecutioner.description>从内置烟雾发生器合成并释放烟雾。 烟雾降低子弹精准度，并防止释放者自身被炮塔完全锁定。</SS_Abilities_SmokepopMechExecutioner.description>
+
+  <SS_Abilities_ShortJumpMech.label>机械短跃</SS_Abilities_ShortJumpMech.label>
+  <SS_Abilities_ShortJumpMech.description>使用特殊的超快速机械结构向前跳跃一定距离。</SS_Abilities_ShortJumpMech.description>
+  <SS_Abilities_ShortJumpMech.verbProperties.label>跳跃</SS_Abilities_ShortJumpMech.verbProperties.label>
+
+
+</LanguageData>

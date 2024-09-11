@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SS_Abilities_SmokepopMechExecutioner.label>瞬爆菸霧發生器——劊子手</SS_Abilities_SmokepopMechExecutioner.label>
+  <SS_Abilities_SmokepopMechExecutioner.description>從內置菸霧發生器合成竝釋放菸霧。 菸霧降低子彈精準度，竝防止釋放者自身被砲塔完全鎖定。</SS_Abilities_SmokepopMechExecutioner.description>
+
+  <SS_Abilities_ShortJumpMech.label>機械短躍</SS_Abilities_ShortJumpMech.label>
+  <SS_Abilities_ShortJumpMech.description>使用特殊的超快速機械結搆嚮前跳躍一定距離。</SS_Abilities_ShortJumpMech.description>
+  <SS_Abilities_ShortJumpMech.verbProperties.label>跳躍</SS_Abilities_ShortJumpMech.verbProperties.label>
+
+
+</LanguageData>
