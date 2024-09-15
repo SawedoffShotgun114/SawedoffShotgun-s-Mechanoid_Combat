@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<![CDATA[
+    <!-- ExecutionerSummon at CommsConsole -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="CommsConsole"]/comps</xpath>
+		<value>
+			<li Class="CompProperties_Usable" MayRequire="Ludeon.RimWorld.Biotech">
+				<useJob>TriggerObject</useJob>
+				<useLabel>Summon executioner threat</useLabel>
+				<useDuration>900</useDuration>
+				<floatMenuOptionPriority>SummonThreat</floatMenuOptionPriority>
+				<floatMenuFactionIcon>Mechanoid</floatMenuFactionIcon>
+				<ignoreOtherReservations>true</ignoreOtherReservations>
+			</li>
+			<li Class="CompProperties_Useable_CallBossgroup" MayRequire="Ludeon.RimWorld.Biotech">
+				<bossgroupDef>Executioner</bossgroupDef>
+				<spawnLetterLabelKey>LetterLabelCommsConsoleSpawned</spawnLetterLabelKey>
+				<spawnLetterTextKey>LetterCommsConsoleSpawned</spawnLetterTextKey>
+				<effecterDef>CommsConsoleBossgroupSummoned</effecterDef>
+				<delayTicks>120</delayTicks>
+			</li>
+		</value>
+	</Operation>
+	]]>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="LargeMechGestator"]/recipes</xpath>
+		<value>
+			<li>Executioner</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="ResurrectUltraheavyMech"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>Corpse_SS_Mech_Executioner</li>
+		</value>
+	</Operation>
+
+</Patch>
