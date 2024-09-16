@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <AbilityDef>
-    <defName>SS_Abilities_SmokepopMechExecutioner</defName>
-    <label>mech smokepop executioner</label>
+    <defName>SS_Abilities_InstantSmokepopMech</defName>
+    <label>mech instant smokepop</label>
     <description>Release compressed smoke from concealed vents. Smoke reduces the accuracy of any shot fired through it, and prevents turrets from locking on entirely.</description>
     <iconPath>UI/Abilities/MechSmokepop</iconPath>
     <cooldownTicksRange>1250</cooldownTicksRange><!-- 0.5 h -->
@@ -31,7 +31,7 @@
   <AbilityDef>
     <defName>SS_Abilities_ShortJumpMech</defName>
     <label>mech shortjump</label>
-    <description>Jump to a distant location using special ultrafast mechanoid muscles.</description>
+    <description>Instantly jump to a distant location using special ultrafast mechanoid muscles.</description>
     <iconPath>UI/Abilities/MechLongJump</iconPath>
     <cooldownTicksRange>760</cooldownTicksRange> <!-- 380(Paramedic)*2 -->
     <aiCanUse>true</aiCanUse>
@@ -42,14 +42,14 @@
       <label>jump</label>
       <violent>false</violent>
       <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
-      <warmupTime>0.5</warmupTime>
-      <range>4.9</range>
+      <!-- <warmupTime>0.01</warmupTime> -->
+      <range>6.9</range>
       <requireLineOfSight>true</requireLineOfSight>
       <soundCast>Longjump_Jump</soundCast>
       <soundLanding>Longjump_Land</soundLanding>
       <targetParams>
         <canTargetLocations>true</canTargetLocations>
-        <canTargetPawns>true</canTargetPawns> <!-- intentionally did that -->
+        <canTargetPawns>true</canTargetPawns> <!-- the author intentionally did that -->
         <canTargetBuildings>false</canTargetBuildings>
       </targetParams>
     </verbProperties>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- SS_Mech_Executioner -->
+
+	<!--
+	Settings:
+	 - A armored(like centipede) giant melee mechanoid, 240+30kg(armor)  (Diabulous 240kg)
+	 - Can use SmokingPop 0.5h cooldowntime
+	 - (Backlog)Can throw SmokingGrenades
+	-->
+
+	<!-- Note: (Solving)In vanilla its somewhat OP. But a melee pawn in CE... a bigger gunpowder *shrug* -->
+	<!-- the author wanna make a boss-like mech in the beginning, but it have low DPS(compares to CentipedeBlaster)... -->
+	<ThingDef ParentName="BaseMechanoidWalker">
+		<defName>SS_Mech_Executioner</defName>
+		<label>executioner</label>
+		<description>An ultra-heavy but fast melee combat mechanoid with a built-in shield bubble generator. Usaully equipped with a Giant Powered Sword Made for siegebreaking or anti-armor in close quarter combat.\n\nIt also have built-in SmokeGenerator and Shor-range jump mechanism. \n\n\n\n"Kenny, you said that guy was designed for anti-armor?Using melee weapon?""Just Like a hot knife through centipede, wanna bet? 5 ambrosias."</description>
+		<!-- Q: (e.g.) 1 bodysize Scyther in CE have 40RHA melee penetration and the 4 bodysize Executioner only 70-90RHA penetraion? A: heavier Armor and without too many speed loss, that's the price. -->
+		<statBases>
+			<EMPResistance>0.5</EMPResistance>
+			<MoveSpeed>4.0</MoveSpeed>
+			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.2</ArmorRating_Sharp>  <!-- centipede * 1.35 -->
+
+			<EnergyShieldRechargeRate>0.5</EnergyShieldRechargeRate>
+			<EnergyShieldEnergyMax>4</EnergyShieldEnergyMax>
+			<MeleeDoorDamageFactor>1.0</MeleeDoorDamageFactor>
+
+			<PsychicSensitivity>0.75</PsychicSensitivity>
+			<BandwidthCost MayRequire="Ludeon.RimWorld.Biotech">4</BandwidthCost>
+			<MechEnergyLossPerHP  MayRequire="Ludeon.RimWorld.Biotech">0.2</MechEnergyLossPerHP>
+			<WorkSpeedGlobal MayRequire="Ludeon.RimWorld.Biotech">1.0</WorkSpeedGlobal> <!-- 0.75 -->
+		</statBases>
+
+		<killedLeavingsPlayerHostile MayRequire="Ludeon.RimWorld.Biotech">
+			<!--
+			<SignalChip>1</SignalChip>
+			<DogTagExecutioner>1</DogTagExecutioner>
+			-->
+		</killedLeavingsPlayerHostile>
+
+		<!-- If CE: (80.5/4.1125)(57.75/10.5)RHA/MPa; (Stab/Slash) -->
+		<tools>
+			<li>
+				<label>left fist</label>
+				<labelNoLocation>fist</labelNoLocation>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>30.0</power> <!-- 24? but  -->
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+				<extraMeleeDamages>
+					<li>
+						<def>Demolish</def>
+						<amount>5</amount>
+					</li>
+				</extraMeleeDamages>
+			</li>
+			<li>
+				<label>right fist</label>
+				<labelNoLocation>fist</labelNoLocation>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>30.0</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>2.6</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.1</chanceFactor>
+			</li>
+		</tools>
+
+
+		<race>
+			<mechWeightClass>UltraHeavy</mechWeightClass>
+			<body>Lancer</body>
+			<baseBodySize>3.8</baseBodySize>
+			<baseHealthScale>4.5</baseHealthScale> <!-- In vanilla its somewhat OP. But a melee pawn in CE... a bigger cannonpowder *shrug* -->
+
+			<detritusLeavings>
+				<li>
+					<def>ChunkMechanoidSlag</def>
+					<texOverrideIndex>3</texOverrideIndex>
+					<spawnChance>0.75</spawnChance>
+				</li>
+				<li>
+					<def>ChunkMechanoidSlag</def>
+					<texOverrideIndex>17</texOverrideIndex>
+					<spawnChance>0.75</spawnChance>
+				</li>
+				<li>
+					<def>ChunkMechanoidSlag</def>
+					<texOverrideIndex>1</texOverrideIndex>
+					<spawnChance>0.75</spawnChance>
+				</li>
+			</detritusLeavings>
+
+		</race>
+		<butcherProducts Inherit="False">
+			<Steel>50</Steel>
+			<Plasteel>20</Plasteel>
+		</butcherProducts>
+
+		<comps>
+			<li Class="CompProperties_Shield"> <!-- built-in shield -->
+				<startingTicksToReset>36000</startingTicksToReset><!-- 10 mins -->
+				<minDrawSize>3</minDrawSize>
+				<maxDrawSize>3</maxDrawSize> <!-- 2.8 original,but... -->
+				<energyLossPerDamage>0.01</energyLossPerDamage>
+				<energyOnReset>4.0</energyOnReset>
+				<blocksRangedWeapons>false</blocksRangedWeapons>
+			</li>
+			<li Class="CompProperties_TurretGun">
+				<turretDef>Gun_ChargeBlasterTurret</turretDef>
+				<angleOffset>-90</angleOffset>
+				<renderNodeProperties>
+					<li>
+						<nodeClass>PawnRenderNode_TurretGun</nodeClass>
+						<workerClass>PawnRenderNodeWorker_TurretGun</workerClass>
+						<parentTagDef>Body</parentTagDef>
+						<overrideMeshSize>(0.75, 0.75)</overrideMeshSize> <!-- 1,1? -->
+						<baseLayer>20</baseLayer>
+						<pawnType>Any</pawnType>
+						<drawData>
+							<dataWest>
+								<rotationOffset>180</rotationOffset>
+							</dataWest>
+						</drawData>
+					</li>
+				</renderNodeProperties>
+			</li>
+		</comps>
+
+	</ThingDef>
+
+	<PawnKindDef ParentName="HeavyMechanoidKind">
+		<defName>SS_Mech_Executioner</defName>
+		<label>executioner</label>
+		<race>SS_Mech_Executioner</race>
+		<combatPower>500</combatPower>
+		<maxPerGroup>3</maxPerGroup>
+		<!--
+		<isBoss>true</isBoss>
+		-->
+		<allowInMechClusters>false</allowInMechClusters>
+
+		<lifeStages>
+			<li MayRequire="Ludeon.RimWorld.Biotech">
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Mechanoid/SS_Mech_Executioner</texPath>
+					<maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/SS_Mech_Executioner</maskPath>
+					<shaderType>CutoutWithOverlay</shaderType>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>3</drawSize> <!-- 2.75 -->
+					<shadowData>
+						<volume>(0.7, 0.8, 0.7)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Mechanoid/SS_Mech_Executioner</texPath>
+					<maskPath>Things/Pawn/Mechanoid/AllegianceOverlays/SS_Mech_Executioner</maskPath>
+					<shaderType>CutoutWithOverlay</shaderType>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>3</drawSize>
+					<shadowData>
+						<volume>(0.7, 0.8, 0.7)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+
+		<defendPointRadius>0</defendPointRadius>
+		<![CDATA[
+		<weaponMoney>9999~9999</weaponMoney>
+
+
+        <techHediffsChance>1</techHediffsChance>
+        <techHediffsMoney>9999~9999</techHediffsMoney>
+		]]>
+
+
+		<weaponTags>
+			<li>MechGiantSword</li>
+		</weaponTags>
+
+
+		<abilities>
+			<li>SS_Abilities_InstantSmokepopMech</li>
+			<li>SS_Abilities_ShortJumpMech</li>
+			<!--
+				<li>SS_Abilities_OverloadedHydraulics</li>
+				<li>SS_Abilities_IsshinAshina'ChargeGladius</li> <5 charge shot burst instantly>
+				<li>SS_Abilities_SweepEdge</li> <Like Tersson's attack?>
+				<li>SS_Abilities_Headhunting</li>
+			-->
+
+		</abilities>
+
+		<!--
+        <aiAvoidCover>true</aiAvoidCover>
+        -->
+	</PawnKindDef>
+
+</Defs>
