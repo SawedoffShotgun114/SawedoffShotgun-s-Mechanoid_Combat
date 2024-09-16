@@ -1,11 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+
+  <!-- the author wanna make a boss-like mech in the beginning, but it have low DPS(compares to CentipedeBlaster)... -->
+
   <SS_Mech_Executioner.label>刽子手</SS_Mech_Executioner.label>
-  <SS_Mech_Executioner.description>一种相对灵活机动的重型近战机器人，内置了护盾发生器。 通常配备一把巨大的动力剑，专为在近距离战斗中破障或反重型装甲而设计。\n\n它还具有内置的 瞬爆烟雾发生器 和 短距跳跃机械结构。\n\n\n\n“王工，你那铁疙瘩能行么？都什么年代了还在使用传统近战武器？砍蜈蚣就跟砍瓜切菜似的，信不信，要不赌五份仙馐果。</SS_Mech_Executioner.description>
+  <SS_Mech_Executioner.description>一种相对灵活机动的重型近战机器人，内置了护盾发生器。 通常配备一把巨大的动力剑，专为在近距离战斗中破障或反重型装甲而设计。\n\n其还具有内置的 瞬爆烟雾发生器 和 短距跳跃机械结构。\n\n\n\n“王工，你那铁疙瘩能行么？都什么年代了还在使用传统近战武器？砍蜈蚣就跟砍瓜切菜似的，五份仙馐果，就赌这个，敢不敢。</SS_Mech_Executioner.description>
   <SS_Mech_Executioner.tools.0.label>左拳</SS_Mech_Executioner.tools.0.label>
   <SS_Mech_Executioner.tools.1.label>右拳</SS_Mech_Executioner.tools.1.label>
   <SS_Mech_Executioner.tools.2.label>头</SS_Mech_Executioner.tools.2.label>
   <!-- Flesh Type: Mechanoid -->
   <SS_Mech_Executioner_Corpse.label>刽子手（死亡）</SS_Mech_Executioner_Corpse.label>
   <SS_Mech_Executioner_Corpse.description>刽子手的尸体</SS_Mech_Executioner_Corpse.description>
+
+
 </LanguageData>

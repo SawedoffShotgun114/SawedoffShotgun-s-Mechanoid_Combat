@@ -1,9 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+
+  <!-- the author wanna make a boss-like mech in the beginning, but it have low DPS(compares to CentipedeBlaster)... -->
+
   <SS_Mech_Executioner.label>劊子手</SS_Mech_Executioner.label>
   <SS_Mech_Executioner.labelPlural>劊子手</SS_Mech_Executioner.labelPlural>
   <SS_Mech_Executioner.lifeStages.0.label>劊子手</SS_Mech_Executioner.lifeStages.0.label>
   <SS_Mech_Executioner.lifeStages.0.labelPlural>劊子手</SS_Mech_Executioner.lifeStages.0.labelPlural>
   <SS_Mech_Executioner.lifeStages.1.label>劊子手</SS_Mech_Executioner.lifeStages.1.label>
   <SS_Mech_Executioner.lifeStages.1.labelPlural>劊子手</SS_Mech_Executioner.lifeStages.1.labelPlural>
+
+
 </LanguageData>
