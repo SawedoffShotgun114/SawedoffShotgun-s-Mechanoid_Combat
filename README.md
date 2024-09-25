@@ -4,11 +4,11 @@
 </p>
 
 <p align="right">
-  <a href="https://github.com/AlohaOe114/SawedoffShotgun-s-Mechanoid_Combat">
-    <img src="https://img.shields.io/badge/-latest%20release-gray?style=for-the-badge&logo=github">
+  <a href="https://github.com/AlohaOe114/SawedoffShotgun-s-MeleeWeapons_Misc">
+    <img src="https://img.shields.io/badge/-Github%20Latest%20release-gray?style=for-the-badge&logo=github">
   </a>
   <a href="mailto:youngturksfree@outlook.com">
-    <img src="https://img.shields.io/badge/-Email%20me-blue?style=for-the-badge&logo=mail">
+    <img src="https://img.shields.io/badge/-Email%20us-blue?style=for-the-badge&logo=mail">
   </a>
 </p>
 
@@ -32,7 +32,7 @@
 KeyWorlds of this Mod's specific contents(Show its feature or usage):    
  "Melee" or "Anti-centipede"    
 
- "Kenny, Where's our anti-Centipede Bots?", "Here."    
+ "Kenny, Where's our new Baby Bots?", "Here."    
 
 ## Compatibility:    
  "Mid-Game adding" compatible    
@@ -47,9 +47,9 @@ KeyWorlds of this Mod's specific contents(Show its feature or usage):
 
  ##### Vanilla, but with CE patch:
  - Executioner (Melee, Anti-Centipede)：    
- (**Warning: It can kill your colonist Pawn in a hit, so keep your distance with Executioner.**)
- (**Warning: Before you download this mod, You'd better know how to fight Centipede(Rocketlauncher & EMP). Or you can just "cheerypicker(A mod can "delete" some things you don't want)" it out**)
- An ultra-heavy but fast melee combat mechanoid with a Giant powered Plasma Sword Made for siegebreaking or melee combat and with a built-in shield bubble generator.  (2-3 attack 1 granite wall)
+ (**Warning: It's very likely the Executioner can kill Player's Pawn in a hit, so keep your distance with it.**)    
+ (**Warning: Before you download this mod, You'd better know how to fight Centipede(Rocketlauncher & EMP). Or you can just "cheerypicker(A mod can "delete" some things you don't want) it out."**)    
+ An ultra-heavy but fast melee combat mechanoid with a Giant powered Plasma Sword Made for siegebreaking or melee combat and with a built-in shield bubble generator.  (2-3 attack 1 granite wall)    
 
  ##### CE Only:
  (Placeholder)
@@ -63,7 +63,7 @@ KeyWorlds of this Mod's specific contents(Show its feature or usage):
 
 | Race        | Health       | Shield HP/RechargeRate | MoveSpeed | PsychicImmune | Abilities                  | Armor_Sharp   | Armor_Blunt    | BandwidthCost | ResearchPrerequisite  | Cost                                                  |
 | ----------- | ------------ | ---------------------- | --------- | ------------- | -------------------------- | ------------- | -------------- | ------------- | --------------------- | ----------------------------------------------------- |
-| Executioner | 4.5\*150=675 | 400%/50%per second     | 4.0       | true          | ShortJump, InstantSmokepop | 120%/18+27RHA | 40%/9+65.25MPa | 5             | High mechtech(Tier 3) | 350*Steel, 350*Plasteel, 2*SignalChip, 1*High subcore |
+| Executioner | 4.5\*150=675 | 400%/50%per second     | 4.0       | true          | ShortJump, InstantSmokepop | 120%/18+27RHA | 40%/9+65.25MPa | 5             | High mechtech(Tier 3) | 350*Steel, 350*Plasteel, 10*ComponentIndustrial, 2*SignalChip, 1*High subcore |
 
 | Weapons        | mass | bulk | sharp penetration(HandlePoke/stab/slash) | blunt penetration(HandlePoke/stab/slash) | cooldown(HandlePoke/Stab/Slash) | Damage(HandlePoke/Stab/Slash)                   | MarketValue | DPS (DamagePerSecond) |
 | -------------- | ---- | ---- | ---------------------------------------- | ---------------------------------------- | ------------------------------- | ----------------------------------------------- | ----------- | --------------------- |
@@ -81,30 +81,28 @@ KeyWorlds of this Mod's specific contents(Show its feature or usage):
  As the Author strange to Vanilla combat system, Weapon Stats for Vanilla version may not so banlanced.
 
 ## Languages:
- - English
- - ChineseSimplified
- - ChineseTraditional
+ - English    
+ - ChineseSimplified    
+ - ChineseTraditional    
 
-## FAQ:
- Q1: CE compatible?
- A1: CE compatible!
+## FAQ: 
+ Q1: CE compatible?    
+ A1: CE compatible!    
 
- Q2: All Texture issues including but not limited to: "Texture style Non-conformant", "Ugly", etc.
- A2: I may draw/optimize Textures later... but now I wanna to stretch 114 hours into 514 hours.
+ Q2: All Texture issues including but not limited to: "Texture style Non-conformant", "Ugly", etc.    
+ A2: I may draw/optimize Textures later... but now I wanna to stretch 114 hours into 514 hours.    
 
 **("Starter Part" Above.)    
-(If this is the first time you using this mod, you can stop reading at here and just goto play the "Rimworld" now.)**
+(If this is the first time you using this mod, you can stop reading at here and just goto play the "Rimworld" now.)**    
 
 ------------------------------------------
 
 ## KnownIssues:
- Unknown(By 202409)
+ Unknown(By 20240924)
 
 ## UpdateLog:
- - 202409 - v1.0.1.0-beta
-   - first public pre-release on github. (Official CE patch coming soon)
- - 202409 - v1.0.2.0-rc
-   - first public release on github. (CE patch finished)
+ - 202409 - v1.0.1.1-beta    
+   First public pre-release on github.    
 
 ## Reference:
  (Placeholder)
@@ -115,18 +113,19 @@ KeyWorlds of this Mod's specific contents(Show its feature or usage):
 
 ## FuturePlans:
  - (Backlog) Mower (Melee):    
-  An agrihand variation with armored legs and built-in 13 melee skill and weaker agriculture skill subcore. (In the CE, Agrihand really like a smaller scyther, 20RHA, except its fragile leg)
+  An agrihand variation with armored legs and built-in 13 melee skill and weaker agriculture skill subcore. (In the CE, Agrihand really like a smaller scyther, 20RHA, except its fragile leg)    
 
-## Credit:
- - **!! All community contributors and You - Love, Mental stimulation and support, Test and Feedback !!**
- - **!! PlasmaBurst2 - Inspiration for Executioner in some extent !!**
+## Acknowledgement: (In no particular order)    
+ - **!! All community contributors and You - Love, Mental stimulation and support, Test and Feedback !!**    
+ - **!! All friends advised me on texture.    
+ - **[!! PlasmaBurst2 - Inspiration for Executioner in some extent !! (Click here to visit their sites)](https://www.plazmaburst2.com)**    
 
 ## Authors:
  - SawedoffShotgun
 
 ## License:
   Rimworld is owned by Tynan Sylvester.    
-  (CC BY-NC-ND 4.0)    
+  <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">CEHDDPS</span> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="http://mailto:youngturksfree@outlook.com">SawedoffShotgun</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-ND 4.0 (Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License)<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt=""></a></p>    
 
 ## Links/Contacts: (If you have any questions, please Email me.)
  Contact Information:    
