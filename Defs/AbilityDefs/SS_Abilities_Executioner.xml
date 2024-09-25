@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <AbilityDef>
+    <defName>SS_Abilities_InstantSmokepopMech</defName>
+    <label>mech instant smokepop</label>
+    <description>Release compressed smoke from concealed vents. Smoke reduces the accuracy of any shot fired through it, and prevents turrets from locking on entirely.</description>
+    <iconPath>UI/Abilities/MechSmokepop</iconPath>
+    <cooldownTicksRange>1250</cooldownTicksRange><!-- 0.5 h -->
+    <targetRequired>false</targetRequired>
+    <hostile>false</hostile>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <!-- <warmupTime>1</warmupTime> -->
+      <range>3.9</range>
+      <drawAimPie>false</drawAimPie>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilitySmokepop">
+        <smokeRadius>3.5</smokeRadius>
+        <clamorType>Ability</clamorType>
+        <clamorRadius>15</clamorRadius>
+      </li>
+    </comps>
+  </AbilityDef>
+
+
+
+  <AbilityDef>
+    <defName>SS_Abilities_BoosterMech</defName>
+    <label>Douboostime</label>
+    <description>Use the built-in booster to increase that intelligence's move speed temporary.</description>
+    <iconPath>UI/Abilities/SS_Abilities_BoosterMech</iconPath>
+    <cooldownTicksRange>1800</cooldownTicksRange> <!-- 30 seconds -->
+    <hostile>false</hostile>
+    <groupAbility>true</groupAbility>
+    <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <aiCanUse>true</aiCanUse>
+    <ai_IsOffensive>true</ai_IsOffensive>
+    <targetRequired>false</targetRequired>
+    <statBases>
+      <Ability_Duration>480</Ability_Duration> <!-- 8s -->
+    </statBases>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <drawAimPie>false</drawAimPie>
+      <requireLineOfSight>false</requireLineOfSight>
+      <nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+      <targetable>false</targetable>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>BoostedMech</hediffDef>
+        <onlyApplyToSelf>True</onlyApplyToSelf>
+        <replaceExisting>false</replaceExisting>
+      </li>
+    </comps>
+  </AbilityDef>
+
+
+  <AbilityDef>
+    <defName>SS_Abilities_ShortJumpMech</defName>
+    <label>Pushin' away</label>
+    <description>Leap forward a short distance using a built-in jump launcher.</description>
+    <iconPath>UI/Abilities/MechLongJump</iconPath>
+    <cooldownTicksRange>760</cooldownTicksRange> <!-- 380(Paramedic)*2 -->
+    <aiCanUse>true</aiCanUse>
+    <hostile>false</hostile>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <verbProperties>
+      <verbClass>Verb_CastAbilityJump</verbClass>
+      <label>jump</label>
+      <violent>false</violent>
+      <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+      <!-- <warmupTime>0.01</warmupTime> -->
+      <range>6.9</range>
+      <requireLineOfSight>true</requireLineOfSight>
+	  <warmupEffecter>JumpMechWarmupEffect</warmupEffecter>
+	  <flightEffecterDef>JumpMechFlightEffect</flightEffecterDef>
+      <soundLanding>JumpMechLand</soundLanding>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+        <canTargetPawns>true</canTargetPawns> <!-- the author intentionally did that -->
+		<canTargetMechs>true</canTargetMechs>
+		<canTargetBuildings>false</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <jobDef>CastJump</jobDef>
+  </AbilityDef>
+
+  <AbilityDef>
+    <defName>SS_Abilities_ChargeSniperRifleBurstShot</defName>
+    <label>IsshinAshina's Charge'Gladius'</label>
+    <description>Quickly burst fire of low-accuracy pulse-charged bullets.</description>
+	<iconPath>UI/Abilities/PiercingSpine</iconPath> <!-- temp -->
+    <writeCombatLog>True</writeCombatLog>
+    <showPsycastEffects>False</showPsycastEffects>
+    <cooldownTicksRange>7200</cooldownTicksRange> <!-- (7200~7200)120 seconds -->
+	<aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_AbilityShoot</verbClass>
+      <defaultProjectile>SS_Vanilla_Bullet_8x50mmCharged</defaultProjectile>
+      <range>25.9</range> <!-- Acutally Charge Sniper rifle should have least 50 range, 30.9 for balance purpose. -->
+      <soundCast>Shot_ChargeBlaster</soundCast>
+      <soundCastTail>GunTail_Heavy</soundCastTail>
+      <muzzleFlashScale>9</muzzleFlashScale>
+      <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+      <warmupTime>0.25</warmupTime>
+      <burstShotCount>3</burstShotCount>
+      <accuracyTouch>0.7</accuracyTouch>
+      <accuracyShort>0.55</accuracyShort>
+      <accuracyMedium>0.4</accuracyMedium>
+      <accuracyLong>0.2</accuracyLong>
+      <ai_IsWeapon>false</ai_IsWeapon>
+    </verbProperties>
+  </AbilityDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>SS_Vanilla_Bullet_8x50mmCharged</defName>
+    <label>8x50mm charged shot</label>
+    <graphicData>
+      <texPath>Things/Projectile/Charge_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>32</damageAmountBase>
+	  <armorPenetrationBase>0.45</armorPenetrationBase>
+	  <stoppingPower>1.75</stoppingPower>
+      <speed>90</speed>
+
+    </projectile>
+  </ThingDef>
+	
+</Defs>

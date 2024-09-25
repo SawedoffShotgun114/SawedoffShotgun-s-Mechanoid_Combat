@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BodyPartDef>
+    <defName>SS_MechanoidThorax_Executioner</defName>
+    <label>executioner thorax</label>
+    <hitPoints>100</hitPoints> <!-- ? -->
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor> <!-- (IndexPointingUp * NerdFace)hmmm, Actuall, machine should have permanent injury IRL -->
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+  </BodyPartDef>
+
+  
+</Defs>

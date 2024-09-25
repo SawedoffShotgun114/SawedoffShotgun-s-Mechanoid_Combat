@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+	<HediffDef>
+		<defName>BoostedMech</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>JetBoosting</label>
+		<!-- <defaultLabelColor>(0.52, 1, 0.95)</defaultLabelColor> -->
+		<description>This intelligence is saturated with stress hormones and liquid energy, permitting it to move and attack at incredible speeds for a short time.</description>
+		<everCurableByItem>false</everCurableByItem>
+		<stages>
+		  <li>
+			<!--
+			<statFactors>
+			  <MeleeCooldownFactor>0.7</MeleeCooldownFactor>
+			</statFactors>
+			-->
+			<statOffsets>
+			  <MoveSpeed>1.0</MoveSpeed>
+			</statOffsets>
+		  </li>
+		</stages>
+		<comps>
+		  <li Class="HediffCompProperties_Disappears">
+			  <disappearsAfterTicks>840~900</disappearsAfterTicks> <!-- 14-15 seconds -->
+			  <showRemainingTime>true</showRemainingTime>
+		  </li>
+		  <li Class="HediffCompProperties_DisappearsOnDeath"/>
+		</comps>
+	</HediffDef>
+</Defs>
