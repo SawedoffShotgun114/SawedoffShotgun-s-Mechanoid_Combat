@@ -14,7 +14,8 @@
 
 
 # Another languages of README:(Please Click hyperlinks below)
- - [点此可阅读中文版README(简介)](README_zh-Hans.md)
+ - [点此可阅读简体中文版README(简介)](README_zh-Hans.md)    
+ - [點此可閱讀繁體中文版README(簡介)](README_zh-Hant.md)    
 
 # Disclaimer
  - This mod is only a clumsy work made in rush. It is compiled based on the author’s personal experience and memory, and there may be omissions, inadequacies, or even errors.    
@@ -49,7 +50,7 @@ KeyWorlds of this Mod's specific contents(Show its feature or usage):
  - Executioner (Melee, Anti-Centipede)：    
  (**Warning: It's very likely the Executioner can kill Player's Pawn in a hit, so keep your distance with it.**)    
  (**Warning: Before you download this mod, You'd better know how to fight Centipede(Rocketlauncher & EMP). Or you can just "cheerypicker(A mod can "delete" some things you don't want) it out."**)    
- An ultra-heavy but fast melee combat mechanoid with a Giant powered Plasma Sword Made for siegebreaking or melee combat and with a built-in shield bubble generator.  (2-3 attack 1 granite wall)    
+ An ultra-heavy but fast melee combat mechanoid with a Giant powered Plasma Sword Made for siegebreaking or melee combat and with a built-in shield bubble generator.  (2-3 attack 1 granite wall)\n\nIt has a built-in smoke generator, and the ability to jump at short ranges. It also carries a fully-automatic charged sniper rifle as a secondary weapon (like a pistol for its giant size) (Though that kind of Mechanoid Personality doesn't prefer to use this weapon.)
 
  ##### CE Only:
  (Placeholder)
@@ -61,9 +62,9 @@ KeyWorlds of this Mod's specific contents(Show its feature or usage):
  BasicStats:
   Vanilla:
 
-| Race        | Health       | Shield HP/RechargeRate | MoveSpeed | PsychicImmune | Abilities                  | Armor_Sharp   | Armor_Blunt    | BandwidthCost | ResearchPrerequisite  | Cost                                                  |
-| ----------- | ------------ | ---------------------- | --------- | ------------- | -------------------------- | ------------- | -------------- | ------------- | --------------------- | ----------------------------------------------------- |
-| Executioner | 4.5\*150=675 | 400%/50%per second     | 4.0       | true          | ShortJump, InstantSmokepop | 120%/18+27RHA | 40%/9+65.25MPa | 5             | High mechtech(Tier 3) | 350*Steel, 350*Plasteel, 10*ComponentIndustrial, 2*SignalChip, 1*High subcore |
+| Race        | Health       | Shield HP/RechargeRate | MoveSpeed | PsychicImmune | Abilities                                         | Armor_Sharp   | Armor_Blunt    | BandwidthCost | ResearchPrerequisite  | Cost                                                  |
+| ----------- | ------------ | ---------------------- | --------- | ------------- |---------------------------------------------------| ------------- | -------------- | ------------- | --------------------- | ----------------------------------------------------- |
+| Executioner | 4.5\*150=675 | 400%/50%per second     | 4.0       | true          | ShortJump, InstantSmokepop, chargebulletBurstShot | 120%/18+27RHA | 40%/9+65.25MPa | 5             | High mechtech(Tier 3) | 350*Steel, 350*Plasteel, 10*ComponentIndustrial, 2*SignalChip, 1*High subcore |
 
 | Weapons        | mass | bulk | sharp penetration(HandlePoke/stab/slash) | blunt penetration(HandlePoke/stab/slash) | cooldown(HandlePoke/Stab/Slash) | Damage(HandlePoke/Stab/Slash)                   | MarketValue | DPS (DamagePerSecond) |
 | -------------- | ---- | ---- | ---------------------------------------- | ---------------------------------------- | ------------------------------- | ----------------------------------------------- | ----------- | --------------------- |
