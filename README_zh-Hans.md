@@ -3,14 +3,14 @@
   <h1 align="right">SawedoffShot's Mechanoid_Combat</h1>
 </p>
 
-<p align="right">  
-  <a href="https://github.com/AlohaOe114/SawedoffShotgun-s-(Placeholder)/releases">  
+<p align="right">
+  <a href="https://github.com/AlohaOe114/SawedoffShotgun-s-Mechanoid_Combat/releases">
     <img src="https://img.shields.io/badge/-Github发布页(获取最新版本)-gray?style=for-the-badge&logo=github">  
-  </a>  
-  <a href="mailto:youngturksfree@outlook.com">  
-    <img src="https://img.shields.io/badge/-电邮联系我们-blue?style=for-the-badge&logo=mail">  
-  </a>  
-</p>  
+  </a>
+  <a href="mailto:youngturksfree@outlook.com">
+    <img src="https://img.shields.io/badge/-电邮联系我们-blue?style=for-the-badge&logo=mail">
+  </a>
+</p>
 
 # 免责声明
 - 本作品内容不过是赶工而作，基于作者个人经验和记忆，可能存在不全、不周甚至错误的情况。    
@@ -19,7 +19,7 @@
 ------------------------------------------
 
  - 自 20240826    
- - 版本: 1.0.0.1 (支持 Rimworld 1.5/1.4)    
+ - 版本: 1.0.1.1 (支持 Rimworld 1.5/1.4)    
 
 ## 描述
 
@@ -44,7 +44,7 @@ CheatEngine(CE) 也许兼容
  - 刽子手 (近战; 反蜈蚣):    
  （**警告：它很有可能一击杀死玩家方的生物与机械，所以要与 刽子手 保持距离。    
  （**警告：在您下载这个模组之前，您最好知道如何对抗蜈蚣（火箭发射器和EMP）。或者您可以直接“cheerypicker（一个 mod 可以”删除“一些你不想要的东西）” 掉 “刽子手”**） 
-  一种巨大但仍然相对灵活快速的内置护盾发生器的近战战斗机械，常用一种用于近战战斗(或攻城)的巨型充能剑做武器。\n\n其内置烟雾发生器，具有短程跳跃能力（2-3 击可毁坏一堵花岗岩城墙），且携带一把全自动电荷狙击枪作为副武器（对于其庞大的体型而言此武器不过是“手枪”）（此机械人格并不经常使用此武器）
+  一种巨大但仍然相对灵活快速的内置护盾发生器的近战战斗机械，常用一种用于近战战斗(或攻城)的巨型充能剑做武器。\n\n其内置烟雾发生器，具有短程跳跃能力（2-3 击可毁坏一堵花岗岩城墙），且携带一把全自动电荷狙击枪作为副武器（对于其庞大的体型而言此武器不过是“手枪”）（此机械人格并不经常使用此武器）    
 
  ##### CE独占：    
  (占位符)    
@@ -93,10 +93,10 @@ CheatEngine(CE) 也许兼容
 ------------------------------------------
 
 ## 已知问题:
- 暂时未知(截至 20240809)    
+ 暂时未知(截至 20240927)    
 
 ## 更新日志:
- - 20240915 - v1.0.1.1-beta    
+ - 20240927 v1.0.1.1-rc    
    - 第一次github发布    
 
 

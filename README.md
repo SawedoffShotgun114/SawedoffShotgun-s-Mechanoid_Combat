@@ -4,7 +4,7 @@
 </p>
 
 <p align="right">
-  <a href="https://github.com/AlohaOe114/SawedoffShotgun-s-MeleeWeapons_Misc">
+  <a href="https://github.com/AlohaOe114/SawedoffShotgun-s-Mechanoid_Combat/releases">
     <img src="https://img.shields.io/badge/-Github%20Latest%20release-gray?style=for-the-badge&logo=github">
   </a>
   <a href="mailto:youngturksfree@outlook.com">
@@ -24,7 +24,7 @@
 ------------------------------------------
 
  - Since 20240826
- - Version: 1.0.0.1 (Rimworld 1.5/1.4 support)
+ - Version: 1.0.1.1 (Rimworld 1.5/1.4 support)
 
 ## Description:
 
@@ -48,9 +48,9 @@ KeyWorlds of this Mod's specific contents(Show its feature or usage):
 
  ##### Vanilla, but with CE patch:
  - Executioner (Melee, Anti-Centipede)：    
- (**Warning: It's very likely the Executioner can kill Player's Pawn in a hit, so keep your distance with it.**)    
+ <color#>(**Warning: It's very likely the Executioner can kill Player's Pawn in a hit, so keep your distance with it.**)    
  (**Warning: Before you download this mod, You'd better know how to fight Centipede(Rocketlauncher & EMP). Or you can just "cheerypicker(A mod can "delete" some things you don't want) it out."**)    
- An ultra-heavy but fast melee combat mechanoid with a Giant powered Plasma Sword Made for siegebreaking or melee combat and with a built-in shield bubble generator.  (2-3 attack 1 granite wall)\n\nIt has a built-in smoke generator, and the ability to jump at short ranges. It also carries a fully-automatic charged sniper rifle as a secondary weapon (like a pistol for its giant size) (Though that kind of Mechanoid Personality doesn't prefer to use this weapon.)
+ An ultra-heavy but fast melee combat mechanoid with a Giant powered Plasma Sword Made for siegebreaking or melee combat and with a built-in shield bubble generator.  (2-3 attack 1 granite wall)\n\nIt has a built-in smoke generator, and the ability to jump at short ranges. It also carries a fully-automatic charged sniper rifle as a secondary weapon (like a pistol for its giant size) (Though that kind of Mechanoid Personality doesn't prefer to use this weapon.)    
 
  ##### CE Only:
  (Placeholder)
@@ -102,8 +102,8 @@ KeyWorlds of this Mod's specific contents(Show its feature or usage):
  Unknown(By 20240924)
 
 ## UpdateLog:
- - 202409 - v1.0.1.1-beta    
-   First public pre-release on github.    
+ - 20240927 v1.0.1.1-rc    
+   - First public release on github.    
 
 ## Reference:
  (Placeholder)
@@ -118,7 +118,7 @@ KeyWorlds of this Mod's specific contents(Show its feature or usage):
 
 ## Acknowledgement: (In no particular order)    
  - **!! All community contributors and You - Love, Mental stimulation and support, Test and Feedback !!**    
- - **!! All friends advised me on texture.    
+ - **!! All friends suggestions on the texture aspects.**    
  - **[!! PlasmaBurst2 - Inspiration for Executioner in some extent !! (Click here to visit their sites)](https://www.plazmaburst2.com)**    
 
 ## Authors:

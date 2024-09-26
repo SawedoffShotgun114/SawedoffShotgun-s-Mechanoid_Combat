@@ -3,10 +3,10 @@
   <h1 align="right">SawedoffShot's Mechanoid_Combat</h1>
 </p>
 
-<p align="right">  
-  <a href="https://github.com/AlohaOe114/SawedoffShotgun-s-(Placeholder)/releases">  
+<p align="right">
+  <a href="https://github.com/AlohaOe114/SawedoffShotgun-s-Mechanoid_Combat/releases">
     <img src="https://img.shields.io/badge/-Github發布頁(獲取最新版本)-gray?style=for-the-badge&logo=github">  
-  </a>  
+  </a>
   <a href="mailto:youngturksfree@outlook.com">  
     <img src="https://img.shields.io/badge/-電郵聯繫我們-blue?style=for-the-badge&logo=mail">  
   </a>  
@@ -19,7 +19,7 @@
 ------------------------------------------
 
 - 自 20240826
-- 版本: 1.0.0.1 (支持 Rimworld 1.5/1.4)
+- 版本: 1.0.1.1 (支持 Rimworld 1.5/1.4)
 
 ## 描述
 
@@ -96,7 +96,7 @@ A2: 作者以後也許會優化的。 但現在，作者狠不得把114個小時
 暫時未知(截至 20240809)
 
 ## 更新日誌:
-- 20240915 - v1.0.1.1-beta
+- 20240927 v1.0.1.1-rc 
   - 第一次github發布
 
 
