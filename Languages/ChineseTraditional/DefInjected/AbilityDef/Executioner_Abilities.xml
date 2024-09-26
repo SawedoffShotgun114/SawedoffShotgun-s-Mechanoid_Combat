@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SS_Abilities_InstantSmokepopMech.label>瞬爆煙霧發生器</SS_Abilities_InstantSmokepopMech.label>
+  <SS_Abilities_InstantSmokepopMech.description>此智慧體從內置煙霧發生器合成並釋放煙霧。 煙霧降低子彈精準度，並防止釋放者自身被炮塔完全鎖定。</SS_Abilities_InstantSmokepopMech.description>
+
+  <SS_Abilities_ShortJumpMech.label>近走低飛</SS_Abilities_ShortJumpMech.label>
+  <SS_Abilities_ShortJumpMech.description>使用內置推進器向前跳躍較短的距離。</SS_Abilities_ShortJumpMech.description>
+  <SS_Abilities_ShortJumpMech.verbProperties.label>跳躍</SS_Abilities_ShortJumpMech.verbProperties.label>
+
+  <SS_Abilities_ChargeSniperRifleBurstShot.label>機·劍聖的'短劍'</SS_Abilities_ChargeSniperRifleBurstShot.label>
+  <SS_Abilities_ChargeSniperRifleBurstShot.description>快速拔槍並進行電荷狙擊彈三連射。</SS_Abilities_ChargeSniperRifleBurstShot.description>
+  <SS_Abilities_ChargeSniperRifleBurstShot.verbProperties.label>三連射技能</SS_Abilities_ChargeSniperRifleBurstShot.verbProperties.label>
+
+</LanguageData>

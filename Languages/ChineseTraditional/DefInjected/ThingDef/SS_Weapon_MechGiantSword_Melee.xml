@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Human's average strength may the Scyther's x0.6 multipler (SteelLongsword(Slash):3.24MPa ScytherBlade(slash)：5.4). (Ignore the overpowered(ScytherStab):20MPa)) -->
+
+  <SS_Weapon_MechGiantSword_Melee.label>機械族巨劒</SS_Weapon_MechGiantSword_Melee.label>
+  <SS_Weapon_MechGiantSword_Melee.description>大型機械族使用的一種充能近戰武器，巨型長劒可用於砍殺或刺傷重甲目標。但在大型機械體的手中，牠也可以是一種很好的破拆工具。</SS_Weapon_MechGiantSword_Melee.description>
+  <SS_Weapon_MechGiantSword_Melee.tools.0.label>劒柄</SS_Weapon_MechGiantSword_Melee.tools.0.label>
+  <SS_Weapon_MechGiantSword_Melee.tools.1.label>劒頭</SS_Weapon_MechGiantSword_Melee.tools.1.label>
+  <SS_Weapon_MechGiantSword_Melee.tools.2.label>劒刃</SS_Weapon_MechGiantSword_Melee.tools.2.label>
+
+
+</LanguageData>

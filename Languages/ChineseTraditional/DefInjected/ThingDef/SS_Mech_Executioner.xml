@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- the author wanna make a boss-like mech in the beginning, but it have low DPS(compares to CentipedeBlaster)... -->
+
+  <SS_Mech_Executioner.label>劊子手</SS_Mech_Executioner.label>
+  <SS_Mech_Executioner.description>一種相對靈活機動的重型近戰機器人，內置了護盾發生器。 通常配備一把巨大的動力劍，專為在近距離戰鬥中破障或反重型裝甲而設計。\n\n其還具有內置的 瞬爆煙霧發生器 和 短距跳躍機械結構。且攜帶一把全自動電荷狙擊槍作為副武器（對於其龐大的體型而言此武器不過是“手槍”）（此機械人格並不經常使用此武器）\n\n\n\n“王工，你那鐵疙瘩能行麼？都什麼年代了還在使用傳統近戰武器？”，“砍蜈蚣就跟砍瓜切菜似的，五份仙饈果，就賭這個，敢不敢。</SS_Mech_Executioner.description>
+  <SS_Mech_Executioner.tools.0.label>左拳</SS_Mech_Executioner.tools.0.label>
+  <SS_Mech_Executioner.tools.1.label>右拳</SS_Mech_Executioner.tools.1.label>
+  <SS_Mech_Executioner.tools.2.label>頭</SS_Mech_Executioner.tools.2.label>
+  <!-- Flesh Type: Mechanoid -->
+  <SS_Mech_Executioner_Corpse.label>劊子手（死亡）</SS_Mech_Executioner_Corpse.label>
+  <SS_Mech_Executioner_Corpse.description>劊子手的屍體</SS_Mech_Executioner_Corpse.description>
+
+
+</LanguageData>
