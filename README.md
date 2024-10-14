@@ -91,7 +91,7 @@ KeyWorlds of this Mod's specific contents(Show its feature or usage):
  A1: CE compatible!    
 
  Q2: All Texture issues including but not limited to: "Texture style Non-conformant", "Ugly", etc.    
- A2: I may draw/optimize Textures later... but now I wanna to stretch 114 hours into 514 hours.    
+ A2: The author may draw/optimize Textures later... but now He just wanna stretch 464 hours into 889 hours.    
 
 **("Starter Part" Above.)    
 (If this is the first time you using this mod, you can stop reading at here and just goto play the "Rimworld" now.)**    
