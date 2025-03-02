@@ -4,10 +4,10 @@
 </p>
 
 <p align="right">
-  <a href="https://github.com/AlohaOe114/SawedoffShotgun-s-Mechanoid_Combat/releases">
+  <a href="https://github.com/SawedoffShotgun114/SawedoffShotgun-s-Mechanoid_Combat/releases">
     <img src="https://img.shields.io/badge/-Github%20Latest%20release-gray?style=for-the-badge&logo=github">
   </a>
-  <a href="mailto:youngturksfree@outlook.com">
+  <a href="mailto:chaconnejay@outlook.com">
     <img src="https://img.shields.io/badge/-Email%20us-blue?style=for-the-badge&logo=mail">
   </a>
 </p>
@@ -126,12 +126,12 @@ KeyWorlds of this Mod's specific contents(Show its feature or usage):
 
 ## License:
   Rimworld is owned by Tynan Sylvester.    
-  <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">CEHDDPS</span> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="http://mailto:youngturksfree@outlook.com">SawedoffShotgun</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-ND 4.0 (Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License)<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt=""></a></p>    
+  <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">SS_CC BY-NC-ND 4.0</span> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="http://mailto:chaconnejay@outlook.com">SawedoffShotgun</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-ND 4.0 (Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License)<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt=""></a></p>    
 
 ## Links/Contacts: (If you have any questions, please Email me.)
  Contact Information:    
-  [Email(mainly): youngturksfree@outlook.com](mailto:youngturksfree@outlook.com)    
-  [Github: https://github.com/AlohaOe114](https://github.com/AlohaOe114)    
+  [Email(mainly): chaconnejay@outlook.com](mailto:chaconnejay@outlook.com)    
+  [Github: https://github.com/SawedoffShotgun114](https://github.com/SawedoffShotgun114)    
  Ludeon: SawedoffShotgun
 
 ## SeeAlso:(Other mods/pieces made by me)
